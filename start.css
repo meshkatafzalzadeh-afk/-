@@ -1,0 +1,85 @@
+        /* حذف حاشیه‌های پیش‌فرض مرورگر */
+        body { margin: 0; padding: 0; }
+
+        /* کادر اصلی که کل صفحه را می‌پوشاند */
+        .main-box {
+            width: 95%;
+            margin: 10px auto;
+            border: 3px solid black;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .header-section {
+             display: flex;
+             flex-direction: row; 
+        }
+        
+        .side { 
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+        }
+        .center { 
+            flex: 3;
+            padding: 0 20px;
+            text-align: center; 
+            color: #ffffff;
+        }
+        
+        img { max-width: 140px;
+              border-radius: 8px;
+        }
+        
+        .poet-info { 
+            margin-bottom: 20px;
+            text-align: justify;
+            line-height: 1.8; 
+        }
+.poet-name { 
+     font-weight: bold;
+     color: #fe8d24;
+     margin-bottom: 5px;
+}
+
+
+
+.footer-section {
+    display: flex;
+    border: 1px solid #00a693;
+    background-color: #00a693;
+    padding: 15px;
+    border-radius: 4px;
+    gap: 10px;
+    align-items: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: justify;
+    width: 94vw;
+    margin: 10px auto;
+    justify-content: center;
+    padding-top: 20px;
+    text-align: center;
+    font-size:medium;
+    line-height: 2;
+    color: rgb(251, 205, 178);
+}
+
+
+.main-box {
+    display: flex;
+    border: 1px solid #00a693;
+    background-color: #00a693;
+    padding: 15px;
+    border-radius: 4px;
+    gap: 10px;
+    align-items: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: justify;
+    width: 94vw;
+    margin: 10px auto;
+    justify-content: center;
+    font-size: larger;
+ }

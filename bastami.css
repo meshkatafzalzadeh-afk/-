@@ -1,0 +1,140 @@
+
+
+body{
+    font-family: IRANSansnormal, Tahoma !important;
+    margin: 0;
+    /* padding: 10px; */
+}
+
+.image{
+    height: 40dvh;
+    width: 30dvw;
+    border-radius: 5px;
+}
+
+.verse{
+    padding: 20px;
+}
+
+.card.text {
+    line-height: 2.4;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #00a693;
+    background-color: #00a693;
+    padding: 15px;
+    border-radius: 4px;
+    gap: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+    width: 94vw;
+    margin: 10px auto;
+}
+
+.card2 {
+    line-height: 2.4;
+    display: flex;
+    border: 1px solid #00a693;
+    background-color: #00a693;
+    padding: 15px;
+    border-radius: 4px;
+    gap: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: right;
+    width: 94vw;
+    margin: 10px auto;
+}
+
+.card {
+    line-height: 2.4;
+    display: flex;
+    border: 1px solid #00a693;
+    background-color: #00a693;
+    padding: 15px;
+    border-radius: 4px;
+    gap: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: right;
+    width: 94vw;
+    margin: 10px auto;
+    font-size: large;
+}
+
+.verse {
+    display: flex;
+    line-height: 2.6;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+}
+
+.verse div {
+    width: 300px; /* یا هر مقدار ثابت مناسب */
+    text-align: center;
+}
+
+.link {
+    line-height: 2.4;
+    display: flex;
+    border: 1px solid #00a693;
+    background-color: #00a693;
+    padding: 15px;
+    border-radius: 4px;
+    gap: 10px;
+    align-items: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-align: center;
+    width: 94vw;
+    margin: 10px auto;
+    justify-content: space-between;
+    font-size: large;
+    flex-direction: column;
+}
+
+.link a {
+    display: block;
+    margin: 10px 0;
+}
+
+a div {
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: #0e4e60;
+    transition: 0.2s;
+}
+ a:hover div {
+    width: 100%;
+
+ }
+
+a:hover {
+    color: #606264;
+}
+
+a:active {
+    color: #fcfcfc;
+}
+
+.link1 {
+    line-height: 2.4;
+    display: flex;
+    border: 1px solid #00a693;
+    background-color: #00a693;
+    padding: 15px;
+    border-radius: 4px;
+    gap: 10px;
+    align-items: center;
+    color: #00574d;
+    font-family: sans-serif;
+    text-align: justify;
+    width: 94vw;
+    margin: 10px auto;
+    justify-content: center;
+    font-size: larger;
+}
+
